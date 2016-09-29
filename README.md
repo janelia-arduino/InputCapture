@@ -31,3 +31,7 @@ void setup()
   input_capture.addCycleTask(userFunc);
 }
 ```
+
+##Install Library Dependencies
+
+[arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
