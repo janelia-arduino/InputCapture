@@ -1,4 +1,4 @@
-#InputCapture
+# InputCapture
 
 Authors:
 
@@ -18,7 +18,7 @@ to use Timer5, so it works with the Arduino Mega.
 
 [Usage Examples](./examples)
 
-##Execute Interrupt Service Routine (ISR) Function Once Per Period
+## Execute Interrupt Service Routine (ISR) Function Once Per Period
 
 ```cpp
 void userFunc(unsigned long period_us, unsigned long on_duration_us)
@@ -32,6 +32,6 @@ void setup()
 }
 ```
 
-##Install Library Dependencies
+## Install Library Dependencies
 
 [arduino-libraries](https://github.com/janelia-arduino/arduino-libraries)
