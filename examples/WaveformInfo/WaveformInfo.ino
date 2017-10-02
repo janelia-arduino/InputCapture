@@ -1,5 +1,5 @@
-#include "Arduino.h"
-#include "InputCapture.h"
+#include <Arduino.h>
+#include <InputCapture.h>
 #include <Streaming.h>
 
 // Writes period and on_duration values to serial port for display.
@@ -8,7 +8,7 @@
 // use 0-5V square wave from ~31-100Hz (~32-10ms period). Multiply
 // period and on_duration values by 500 to get units of nanoseconds.
 
-const int BAUDRATE = 9600;
+const long BAUDRATE = 115200;
 const int LOOP_DELAY = 300;
 
 unsigned long period_display;

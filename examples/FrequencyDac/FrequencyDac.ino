@@ -1,15 +1,11 @@
-#if defined(ARDUINO) && ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
+#include <Arduino.h>
 #include <util/atomic.h>
-#include "Streaming.h"
-#include "SPI.h"
-#include "AD57X4R.h"
-#include "Watchdog.h"
-#include "InputCapture.h"
-#include "BetterMap.h"
+#include <Streaming.h>
+#include <SPI.h>
+#include <AD57X4R.h>
+#include <Watchdog.h>
+#include <InputCapture.h>
+#include <BetterMap.h>
 
 
 // Writes frequency value to AD57X4R DAC analog output.
