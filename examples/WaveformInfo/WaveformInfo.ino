@@ -8,7 +8,7 @@
 // use 0-5V square wave from ~31-100Hz (~32-10ms period). Multiply
 // period and on_duration values by 500 to get units of nanoseconds.
 
-const long BAUDRATE = 115200;
+const long BAUD = 115200;
 const int LOOP_DELAY = 300;
 
 unsigned long period_display;
@@ -29,7 +29,7 @@ void setup()
   input_capture.setup();
 
   // Setup serial communications
-  Serial.begin(BAUDRATE);
+  Serial.begin(BAUD);
 
   input_capture.addCycleTask(updateWaveformMeasurements);
 }
