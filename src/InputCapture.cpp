@@ -98,7 +98,7 @@ void InputCapture::update()
     period_us_ = duration_ >> 1;
     if (callback_enabled_)
     {
-      (*callback_)(period_us_, on_duration_us_);
+      (*callback_)(period_us_,on_duration_us_);
     }
   }
 }

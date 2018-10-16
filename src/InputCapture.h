@@ -14,7 +14,8 @@
 class InputCapture
 {
 public:
-  typedef void (*Callback)(unsigned long period_us, unsigned long on_duration_us);
+  typedef void (*Callback)(unsigned long period_us,
+    unsigned long on_duration_us);
   InputCapture();
   void setup();
   void addCycleCallback(Callback callback);
